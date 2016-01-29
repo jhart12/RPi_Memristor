@@ -1,12 +1,13 @@
 # RPi_Memristor
 Raspberry Pi software to output voltages for use in testing a memristor. This voltage is output through the ADCDACPi hardware from abElectronics.com, and requires the use of any commercially available differential amplifier or subtractor circuit.
 
+##Dependencies
 This software is for use with the ADCDACPi Raspberry Pi expansion board from http://www.abelectronics.co.uk. It uses the AB Electronics UK ADCDAC Pi Python Library, which can be downloaded free of charge from https://github.com/abelectronicsuk/ABElectronics_Python_Libraries/tree/master/ADCDACPi. See the associated README and license for details on installation, use, and permissions for the AB Electronics UK ADCDAC Pi Python Library.
 
-##Install:
-First, install the AB Electronics UK ADCDAC Pi Python Library according the the Install directions in their README file. 
+Before beginning, install the AB Electronics UK ADCDAC Pi Python Library according the the Install directions in their README file.
 
-Then, to download this software, connect your Raspberry Pi to the Internet and type in the command line
+##Install
+To download this software, connect your Raspberry Pi to the Internet and type in the command line
 ```
 git clone https://github.com/jhart12/RPi_Memristor.git
 ```
