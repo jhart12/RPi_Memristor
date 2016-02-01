@@ -16,7 +16,7 @@ Then add the location where you downloaded the library to the PYTHONPATH. For ex
 ```
 export PYTHONPATH=${PYTHONPATH}:~/Desktop/RPi_Memristor/
 ```
- Be sure to either add the location of the downloaded ABelectronics ADCDACPi library to the python path as described in their Install instructions, or to copy over ABE_ADCDACPi.py into the RPi_Memristor directory.
+ Additionally, be sure to either add the location of the downloaded ABelectronics ADCDACPi library to the python path as described in their Install instructions, or to copy over ABE_ADCDACPi.py into the RPi_Memristor directory.
 
 Then to use any of the functions, simply import the RPi_Memristor library:
 
