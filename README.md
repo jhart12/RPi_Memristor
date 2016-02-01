@@ -16,6 +16,12 @@ Then add the location where you downloaded the library to the PYTHONPATH. For ex
 ```
 export PYTHONPATH=${PYTHONPATH}:~/Desktop/jhart12/RPi_Memristor/
 ```
+Then to use any of the functions, simply import the RPi_Memristor library:
+
+```
+import RPi_memristor
+RPi_memristor.simpletriangle(2) #see below for functions
+```
 
 ##Functions:
 ```
