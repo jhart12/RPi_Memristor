@@ -14,13 +14,13 @@ git clone https://github.com/jhart12/RPi_Memristor.git
 
 Then add the location where you downloaded the library to the PYTHONPATH. For example, if you downloaded the library to the desktop, type in the command line
 ```
-export PYTHONPATH=${PYTHONPATH}:~/Desktop/jhart12/RPi_Memristor/
+export PYTHONPATH=${PYTHONPATH}:~/Desktop/RPi_Memristor/
 ```
 Then to use any of the functions, simply import the RPi_Memristor library:
 
 ```
-import RPi_memristor
-RPi_memristor.simpletriangle(2) #see below for functions
+import RPi_Memristor
+RPi_Memristor.simpletriangle(2) #see below for functions
 ```
 
 ##Functions:
